@@ -15,12 +15,12 @@ const experts = [
   { id: 3, name: "Khan Nafes", img: expert3 },
   { id: 4, name: "Al Laila", img: expert4 },
   { id: 5, name: "Piter Bob", img: expert5 },
-  { id: 6, name: "Slim Kha", img: expert6 },
+  { id: 6, name: "Slima Kha", img: expert6 },
 ];
 
 const Experts = () => {
   return (
-    <div className="container">
+    <div id="experts" className="container">
       <h1>Experts </h1>
       <div className="row align-center">
         {experts.map((expert) => (
